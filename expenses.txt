@@ -1,2 +1,3 @@
 reddi,100,washing powder
 reddi,10,curd
+subhan,1000,rice

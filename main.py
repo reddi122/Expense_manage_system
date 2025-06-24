@@ -8,7 +8,7 @@ from existing_user import (
 
 def expense_menu(username):
     while True:
-        print("\n1. Add\n2. Delete\n3. Modify\n4. View\n5. Report\n6. Logout")
+        print("\n1. Add Expense\n2. Delete Expense\n3. Modify Expense\n4. View Expense\n5. Report Expense\n6. Logout")
         choice = input("Choose: ")
         if choice == "1":
             add_expense(username)
@@ -24,7 +24,7 @@ def expense_menu(username):
             print("Logged out.")
             break
         else:
-            print("Invalid option.")
+            print("Choose the options between 1 to 6.")
 
 def main():
     while True:

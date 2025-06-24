@@ -33,7 +33,7 @@ def delete_expense(username):
         lines = f.readlines()
     view_expenses(username)
     idx = int(input("Enter index to delete: "))
-    if 0 <= idx < len(lines):
+    if 0 <= idx < len(lines):              # 0 <= 2 < 4
         u = lines[idx].split(",")[0]
         if u == username:
             del lines[idx]
