@@ -1,0 +1,2 @@
+reddi,100,washing powder
+reddi,10,curd
